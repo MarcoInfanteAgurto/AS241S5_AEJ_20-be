@@ -1,4 +1,4 @@
-package pe.edu.vallegrande.app;
+package marco.infante.articleSummarizer;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

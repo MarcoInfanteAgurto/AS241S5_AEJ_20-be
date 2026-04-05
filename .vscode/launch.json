@@ -1,0 +1,18 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        
+        {
+            "type": "java",
+            "name": "ArticleSummarizer",
+            "request": "launch",
+            "mainClass": "marco.infante.articleSummarizer.MsSpringWebfluxR2dbcSqlApplication",
+            "env": {
+                "DATABASE_URL": "r2dbc:postgresql://neondb_owner:npg_sljYkGJve67x@ep-wispy-bar-anvnefpf-pooler.c-6.us-east-1.aws.neon.tech/marco_infante_20?sslmode=require&channel_binding=require",
+                "DATABASE_USERNAME": "neondb_owner",
+                "DATABASE_PASSWORD": "npg_sljYkGJve67x",
+                "RAPIDAPI_KEY": "7341f16df8mshddef1f63531ac97p1a57d4jsnc2fbe0a52ee4"
+            }
+        }
+    ]
+}
