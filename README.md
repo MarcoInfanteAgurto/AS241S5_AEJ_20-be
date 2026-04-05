@@ -138,17 +138,7 @@ server:
 
 Las variables sensibles se leen desde un archivo `.env` en la raíz del proyecto.
 
-### Ejemplo `.env`
 
-```env
-NEON_R2DBC_URL=r2dbc:postgresql://ep-xxx.us-east-2.aws.neon.tech/neondb?sslmode=require
-NEON_USERNAME=tu_usuario_neon
-NEON_PASSWORD=tu_password_neon
-
-RAPIDAPI_KEY=tu_rapidapi_key_aqui
-RAPIDAPI_HOST=article-extractor-and-summarizer.p.rapidapi.com
-RAPIDAPI_BASE_URL=https://article-extractor-and-summarizer.p.rapidapi.com
-```
 
 ---
 
