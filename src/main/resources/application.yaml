@@ -1,0 +1,23 @@
+spring:
+  application:
+    name: imagen-generator
+  data:
+    mongodb:
+      uri: ${MONGO_URI}
+      database: ${MONGO_DATABASE}
+
+rapidapi:
+  key: ${RAPIDAPI_KEY}
+  host: ai-text-to-image-generator-flux-free-api.p.rapidapi.com
+  base-url: https://ai-text-to-image-generator-flux-free-api.p.rapidapi.com
+  endpoint-stable-diffusion: /aaaaaaaaaaaaaaaaaiimagegenerator/quick.php
+
+springdoc:
+  swagger-ui:
+    path: /swagger-ui.html
+    enabled: true
+  api-docs:
+    path: /api-docs
+
+server:
+  port: 8080
